@@ -19,6 +19,15 @@ body{
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+}
+
+#img-site {
+    height: 300px;
+    width: 300px;
+}
+
 /*ESTILO DA CABEÇALHO*/
 header{
     padding: 40px 4%;
@@ -57,21 +66,29 @@ header nav li{
     padding: 0 40px;
 }
 
-header .tec-contato button{
+header .wf-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #8A2BE2;
+    background-color: #00FF00;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
 }
 
-header .tec-contato button:hover{
-    box-shadow: 0px 0px 8px #892be2;
+header .wf-contato button:hover{
+    box-shadow: 0px 0px 8px #00ff00;
 }
 
-  .topo-do-site .txt-topo-site p{
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
     color: #fff;
-    margin: 40px 0;
-  }
+    font-size: 38px;
+}
