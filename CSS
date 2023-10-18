@@ -26,6 +26,18 @@ body{
 #img-site {
     height: 300px;
     width: 300px;
+    border-radius: 10px;
+}
+
+.wf-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00FF00;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
 }
 
 /*ESTILO DA CABEÇALHO*/
@@ -66,18 +78,9 @@ header nav li{
     padding: 0 40px;
 }
 
-header .wf-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #00FF00;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-header .wf-contato button:hover{
+.wf-contato button:hover{
     box-shadow: 0px 0px 8px #00ff00;
+    transform: scale(1.05);
 }
 
 /* ESTILO DO TOPO DO SITE */
@@ -90,5 +93,29 @@ section.topo-do-site .flex {
 
 .topo-do-site h1 {
     color: #fff;
-    font-size: 38px;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-do-site h1 span {
+    color: #00FF00;
+}
+
+.topo-do-site .txt-topo-do-site p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-do-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
 }
