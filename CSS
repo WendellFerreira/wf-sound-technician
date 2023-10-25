@@ -40,6 +40,11 @@ body{
     transition: .2s;
 }
 
+.copy {
+    color: #fff;
+    padding: 30%;
+}
+
 /*ESTILO DA CABEÇALHO*/
 header{
     padding: 40px 4%;
@@ -91,7 +96,7 @@ section.topo-do-site .flex {
     gap: 90px;
 }
 
-.topo-do-site h1 {
+h1 {
     color: #fff;
     font-size: 42px;
     line-height: 40px;
