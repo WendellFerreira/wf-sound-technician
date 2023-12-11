@@ -1,5 +1,9 @@
 /* ESTILO GERAL */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     margin: 40px;
@@ -144,6 +148,14 @@ section.topo-do-site .flex {
 
 section.especialidades {
     padding: 40px 4%;
+}
+
+section.especialidades .producoes {
+    text-decoration: none;
+}
+
+section.especialidades .tecnica {
+    text-decoration: none;
 }
 
 section.especialidades .flex {
