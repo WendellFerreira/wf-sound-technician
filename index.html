@@ -20,24 +20,24 @@
 </head>
 <body>
     <header>
-        <div class="interface">
+        <div class="interface" id="interface">
             <div class="logo">
-                <a href="#">
+                <a href="#interface">
                     <img id="img_redonda" src="./img/logo-wf-sound-technician.jpg" alt="Logo da WF Sound Technician">
                 </a>
             </div><!--logo-->
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidade</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidade">Especialidade</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
 
             <div class="wf-contato">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
             </div><!--wf-contato-->
@@ -45,7 +45,7 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="inicio">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-do-site">
@@ -54,7 +54,7 @@
                            estamos prontos para criar a presença sonora dos seus sonhos.</p>
 
                         <div class="wf-contato">
-                            <a href="https://web.whatsapp.com/">
+                            <a href="#contato">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -65,26 +65,30 @@
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--topo-do-site-->
-        <section class="especialidades">
+        <section class="especialidades" id="especialidade">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
-                    <div class="especialidades-box">
-                        <i class="bi bi-speaker"></i>
-                        <h3>Produções</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. tempore, nulla rem dolore<br> inventore delectus at.</p>
-                    </div><!--especialidades-box-->
+                    <a class="producoes" href="#projetos">
+                        <div class="especialidades-box">
+                            <i class="bi bi-speaker"></i>
+                            <h3>Produções</h3>
+                            <p>Aqui contem todas as produção de cantores,<br> músicos e grupos musicais. </p>
+                        </div><!--especialidades-box-->
+                    <a>
 
-                    <div class="especialidades-box">
-                        <i class="bi bi-soundwave"></i>
-                        <h3>Técnica</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. tempore, nulla rem dolore<br> inventore delectus at.</p>
-                    </div><!--especialidades-box-->
+                    <a class="tecnica" href="#projetos">
+                        <div class="especialidades-box">
+                            <i class="bi bi-soundwave"></i>
+                            <h3>Técnica</h3>
+                            <p>Aqui contem todoas as produções técnicas<br> ao vivo dos eventos e formaturas.</p>
+                        </div><!--especialidades-box-->
+                    </a>
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--especialidades-->
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -93,8 +97,7 @@
 
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU WF SOUND TECHNICIAN.</span></h2>
-                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. tempore, nulla rem dolore inventore delectus at.</P>
-                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. tempore, nulla rem dolore inventore delectus at.</P>
+                        <P>Somos a WF SOUND TECHNICIAN de técnica de som. Voltada em produções musicais e produções ao vivo. Mas atualmente fazemos tada a técnica de som de formaturas, bandas e grupos musicais. </P>
                         <div class="wf-social">
                             <a href="https://www.instagram.com/thisis__wendell/"><button><i class="bi bi-instagram"></i></button></a>
                             <a href="https://github.com/WendellFerreira"><button><i class="bi bi-github"></i></button></a>
@@ -105,24 +108,27 @@
             </div><!--interface-->
         </section><!--sobre-->
 
-        <section class="portfolio">
+        <section class="portfolio" id="projetos">
             <div class="interface">
-                <h2 class="titulo">MEU <span>POTFÓLIO.</span></h2>
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(./img/img-port.jpeg);">
+                    <div class="img-port">
+                        <video width="360px" height="460px" border-radius="40px" autoplay muted><source src="./midia/video-1.mp4"></video>
                         <div class="overlay">Projeto 1</div>
                     </div><!--img-port-->
-                    <div class="img-port" style="background-image: url(./img/img-port.jpeg);">
+                    <div class="img-port">
+                        <video width="360px" height="460px" border-radius="40px" autoplay muted><source src="./midia/video-2.mp4"></video>
                         <div class="overlay">Projeto 2</div>
                     </div><!--img-port-->
-                    <div class="img-port" style="background-image: url(./img/img-port.jpeg);">
+                    <div class="img-port">
+                        <video width="360px" height="460px" border-radius="40px" autoplay muted><source src="./midia/video-2.mp4"></video>
                         <div class="overlay">Projeto 3</div>
                     </div><!--img-port-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--portifolio-->
 
-        <section class="formulario">
+        <section class="formulario" id="contato">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
@@ -143,7 +149,7 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                        <img id="img_redonda" src="./img/logo-wf-sound-technician.jpg" alt="Logo da WF Sound Technician">
+                        <a href="#interface"><img id="img_redonda" src="./img/logo-wf-sound-technician.jpg" alt="Logo da WF Sound Technician"></a>
                     </div><!--logo-footer-->
                     <div class="wf-social">
                         <a href="https://www.instagram.com/thisis__wendell/"><button><i class="bi bi-instagram"></i></button></a>
